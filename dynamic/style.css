@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+body{
+    font-family: 'Roboto', sans-serif ;
+    
+}
+nav{
+    background-color: rgb(63, 59, 59);
+    height:90px;
+    width:100%;
+   opacity: 0.8;
+   position:absolute;
+   top:-1%;
+}
+nav ul{
+    float:right;
+    margin-right: 70px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 50px;
+}
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+font-size: 17px;
+}
+
+#header{
+    position:absolute;
+    top:450%;
+    left:10%;
+    color:rgb(8, 8, 8);
+    font-weight: 200px;
+}
+footer{
+    background-color: rgb(63, 59, 59);
+      
+    color: wheat;
+}
+footer a{
+    color:black;
+}
+.container{
+    display: inline-block;
+}
+.card:hover{
+    -webkit-webkit: box shadow -1px;
+    -moz-webkit: box shadow 9px;
+    -ms-webkit: box shadow 40px;
+    -o-webkit: box shadow -12px;
+box-shadow:-1px 9px 40px -12px rgba(0,0, 0,0.75) ;
+}
+    
+.card{
+    border: 1px solid black;
+    transition:0.7s;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+/*media query for responsive design*/
+@media only screen and (max-width:950px) and (min-width:768){
+    nav{
+        font-size: 20px;
+        padding:20px 15px;
+    }
+}
+    

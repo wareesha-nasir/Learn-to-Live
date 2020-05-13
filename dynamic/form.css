@@ -1,0 +1,29 @@
+
+body{
+padding: 0%;
+margin: 0%;
+overflow-x: hidden;
+background-color: whitesmoke;
+}
+.container{
+    position: absolute;
+    top: 12%;
+    left: 60%;
+    width: 25%;
+    
+}
+h1{
+    color: rgb(7,61,25);
+}
+#name{
+    font-size: 17px;
+    padding:5px 0;
+    margin: 5px 0;
+    width:25%;
+    
+}
+.containersignin{
+    position: absolute;
+    right: 70%;
+    bottom: 7%;
+}
